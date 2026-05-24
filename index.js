@@ -20,7 +20,7 @@ app.use(cors({
 
         "http://localhost:5173",
 
-        "https://mern-frontend-production-19e8.up.railway.app"
+        "https://mern-frontend-production-f33a.up.railway.app"
     ],
 
     credentials: true
