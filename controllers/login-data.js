@@ -60,9 +60,9 @@ const loginData = async (req, res) => {
 
             httpOnly: true,
 
-            secure: false,
+            secure: true, // for local--false
 
-            sameSite: "lax"
+            sameSite: "none"  // for local lax
         });
 
         res.status(200).json({
